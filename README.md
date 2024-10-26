@@ -1,6 +1,3 @@
-# Python script to generate a README.md file for your project
-
-readme_content = """
 # **Exploratory Data Analysis (EDA) on Used Cars in the United States**
 
 ### **Project Overview**
