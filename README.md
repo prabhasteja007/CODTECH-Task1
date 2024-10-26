@@ -43,34 +43,49 @@ The goal of this project is to perform **EDA on a dataset of used cars** to:
 
 ## **Key Insights**
 
+### 1. **Price Distribution by Manufacturer**
+- **Description:** This box plot shows the distribution of prices for different car manufacturers, helping understand how prices vary across brands.
+
+![Box Plot: Price vs. Manufacturer](outputs/box plot price vs manufacture.png)  
+(*Insert your box plot image here*)
+
+---
 ### 1. **Price Distribution by Car Condition**
 - **Description:** This box plot shows how prices vary across different car conditions (e.g., excellent, good, fair, new, etc.).
   
-![Box Plot Placeholder](outputs/boxplot.png)  
+![Box Plot Placeholder](outputs/box plot price vs car condition.png)  
 (*Insert your box plot image here*)
 
 ---
 
-### 2. **Car Price Distribution Histogram**
-- **Description:** The histogram illustrates the overall distribution of car prices, helping identify common price ranges.
+### 3. **Multi-Histogram Visualization of Key Variables**
+- **Description:** This output consists of five histograms that illustrate the distributions of key variables: price, year of manufacture, and manufacturer. Each histogram provides insights into how these variables relate to one another and their overall distributions within the dataset.
 
-![Histogram Placeholder](outputs/histogram.png)  
-(*Insert your histogram image here*)
+![Multi-Histogram Output](outputs/Histograms.png)  
+(*Insert your multi-histogram image here*)
 
 ---
 
 ### 3. **Heatmap of Correlations Between Features**
 - **Description:** This heatmap highlights correlations between features like price, mileage, year of manufacture, and condition.
 
-![Heatmap Placeholder](outputs/heatmap.png)  
+![Heatmap Placeholder](outputs/correlation heatmap of numeric features.png)  
 (*Insert your heatmap image here*)
 
 ---
 
-### 4. **Scatter Plot of Price vs. Mileage**
-- **Description:** A scatter plot showing the relationship between car prices and mileage, highlighting trends or outliers.
+### 4. **Scatter Plot of Price vs. Year**
+- **Description:** This scatter plot shows the relationship between car prices and the year of manufacture, highlighting trends in pricing over time.
 
-![Scatter Plot Placeholder](outputs/scatterplot.png)  
+![Scatter Plot: Price vs. Year](outputs/scatterplot_price_vs_year.png)  
+(*Insert your scatter plot image here*)
+
+---
+
+### 5. **Scatter Plot of Price vs. Odometer**
+- **Description:** This scatter plot illustrates the relationship between car prices and odometer readings (mileage), showing how usage affects pricing.
+
+![Scatter Plot: Price vs. Odometer](outputs/scatterplot_price_vs_odometer.png)  
 (*Insert your scatter plot image here*)
 
 ---
